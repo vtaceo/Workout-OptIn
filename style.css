@@ -58,6 +58,7 @@ body {
 }
 
 .modal-footer button {
+    background-color: rgb(125, 66, 91);
     width: auto;
     padding: 5px 20px;
     font-size: 16px;
@@ -67,9 +68,15 @@ body {
 }
 
 .modal-footer button:hover {
+    background-color: rgb(77, 40, 55);
     color: white;
     font-weight: 500;
 }
+
+.modal-footer button:focus {
+    background-color: rgb(77, 40, 55);
+}
+
 
 footer {
     padding: 35px 0px 20px 0px;
