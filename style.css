@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Jost'
+}
+
+
+.opt-in {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(73, 61, 63, 0.5);
+    background-blend-mode: overlay;
+    color: white;
+    background-position: center;
+}
+
+.main {
+    /* background-color: rgb(241, 224, 227); */
+    height: 100vh;
+    font-family: 'Jost';
+}
+
+.inner-container {
+    /* background-color: rgb(160, 145, 175); */
+    height: 90vh;
+}
+
+.inner-container h3 {
+    color: black;
+}
+
+.inner-container h1 {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+
+
+
+.btn {
+    background-color: rgb(125, 66, 91);
+    color: rgb(15, 34, 75);
+    font-weight: bold;
+    transition: ease-in 0.2s;
+    width: 400px;
+    font-size: 24px;
+}
+
+.btn:hover {
+    background-color: rgb(77, 40, 55);
+    color: rgb(15, 34, 75);
+    font-weight: bold;
+}
+
+.modal {
+    font-family: 'Jost';
+}
+
+.modal-content {
+    color: rgb(15, 34, 75);
+}
+
+.modal-footer button {
+    width: auto;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.modal-footer button:hover {
+    color: white;
+    font-weight: 500;
+}
+
+footer {
+    padding: 35px 0px 20px 0px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Jost';
+}
+
+
+
+
+/* ============================ MEDIA QUERIES ============================= */
+/* ------------------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+    .inner-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 576px) {}
