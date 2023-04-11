@@ -73,10 +73,6 @@ body {
     font-weight: 500;
 }
 
-.modal-footer button:focus {
-    background-color: rgb(77, 40, 55);
-}
-
 
 footer {
     padding: 35px 0px 20px 0px;
