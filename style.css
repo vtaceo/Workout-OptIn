@@ -35,9 +35,6 @@ body {
     font-weight: bold;
 }
 
-
-
-
 .btn {
     background-color: rgb(125, 66, 91);
     color: rgb(15, 34, 75);
@@ -88,12 +85,35 @@ footer {
 /* ------------------------------------------------------------------------ */
 
 @media (max-width: 768px) {
-    .inner-container {
+    /* .inner-container {
         display: flex;
         flex-direction: column;
+    } */
+
+    .container-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-2 {
+        display: none;
     }
 
 
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .inner-container h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .btn {
+        width: 200px;
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
